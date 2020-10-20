@@ -15,16 +15,20 @@ body {
     grid-auto-rows: 240px;
     column-gap: 16px;
     row-gap: 16px;
+    margin-bottom: 80px;
 }
 
-.content__wrapper {
+.contentWrapper {
     display: flex;
     justify-content: center;
+    margin-top: -50px;
 }
 
 .media {
     max-width: 100%;
     height: auto;
+    border-radius: 3px;
+    box-shadow: 0 10px 6px -6px #212121;
 }
 
 .media:hover {
@@ -64,4 +68,8 @@ body {
     .content {
         grid-template-columns: repeat(5, 240px);
     }
+}
+textarea:focus,
+input:focus {
+    outline: none;
 }
