@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(23, 21, 68);
+    margin: 0;
+}
+.navbarContainer {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.consoleLog {
+    border: red dashed;
+}
+
+.navbarContainerLeft {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+.navbarContainerCenter {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    flex: 2;
+}
+
+.navbarContainerRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.uploadButton {
+    padding: 7px 14px 7px 9px;
+    background-color: #1bb76e;
+    width: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchBarContainer {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+}
+
+.search {
+    padding: 10px;
+}
+.searchBarInput {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 7px 18px 10px 9px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.searchBarInput::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    /* opacity: 1; Firefox */
+}

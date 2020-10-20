@@ -4,8 +4,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imgur</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
+    <nav class=".consoleLog navbarContainer">
+        <div class=".consoleLog navbarContainerLeft">
+            <img src="./resources/logo-1200-630-removebg.png" height="100%" class=".consoleLog" alt="logo">
+            <a href="" class=".consoleLog uploadButton">
+                <img src="https://s.imgur.com/desktop-assets/desktop-assets/icon-new-post.13ab64f9f36ad8f25ae3544b350e2ae1.svg" alt="add new post">
+                <span class="newPostLabel">New post</span>
+            </a>
+        </div>
+        <div class=".consoleLog navbarContainerCenter">
+            <div class=".consoleLog searchBarContainer">
+                <input class=".consoleLog searchBarInput" type="text" placeholder="Images, #tags, @users oh my!">
+                <div  class="search">
+                    <img src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg" alt="search button">
+                </div>
+            </div>
+        </div>
+        <div class=".consoleLog navbarContainerRight">
+            <a href="" class=".consoleLog uploadButton">
+                <span class="newPostLabel">Sign up</span>
+            </a>
+        </div>
+        
+    </nav>
+
     
     <script type="text/javascript" src="script.js"></script>
 </body>
